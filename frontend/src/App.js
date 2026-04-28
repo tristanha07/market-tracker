@@ -110,7 +110,8 @@ export default function App() {
   const overallLabel = clearCount >= 3 ? 'BUY CONDITIONS' : clearCount === 2 ? 'WAIT' : 'CAUTION';
 
   return (
-    <div style={{ fontFamily: 'sans-serif', maxWidth: 860, margin: '0 auto', padding: '32px 24px', background: '#0a0a0a', minHeight: '100vh' }}>
+    <div style={{ fontFamily: 'sans-serif', maxWidth: 860, margin: '0 auto', padding: '32px 24px' }}>
+
       {/* Header */}
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', marginBottom: 24 }}>
         <h1 style={{ fontSize: 20, fontWeight: 500, margin: 0, letterSpacing: '0.04em' }}>
