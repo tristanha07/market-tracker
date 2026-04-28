@@ -1,0 +1,13 @@
+# API keys - never upload these
+.env
+
+# Dependencies - too large to upload
+node_modules/
+frontend/node_modules/
+
+# React build files
+frontend/build/
+
+# System files
+.DS_Store
+Thumbs.db 
