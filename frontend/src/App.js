@@ -4,7 +4,7 @@ import './App.css';
 
 function SignalCard({ signal }) {
   const bg = signal.clear === null ? '#000000'
-    : signal.clear ? '#eaf3de' : '#fcebeb';
+    : signal.clear ? '#000000' : '#000000';
   const border = signal.clear === null ? '#ccc'
     : signal.clear ? '#639922' : '#e24b4a';
   const badge = signal.clear === null ? '#888'
