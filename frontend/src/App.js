@@ -3,8 +3,8 @@ import axios from 'axios';
 import './App.css';
 
 function SignalCard({ signal }) {
-  const bg = signal.clear === null ? '#000000'
-    : signal.clear ? '#000000' : '#000000';
+  const bg = signal.clear === null ? '#ffffff'
+    : signal.clear ? '#ffffff' : '#ffffff';
   const border = signal.clear === null ? '#ccc'
     : signal.clear ? '#639922' : '#e24b4a';
   const badge = signal.clear === null ? '#888'
@@ -106,7 +106,7 @@ export default function App() {
   const sectorSignal = signals.find(s => s.name === 'Leading Sector');
 
   const overallColor = clearCount >= 3 ? '#3b6d11' : clearCount === 2 ? '#854f0b' : '#a32d2d';
-  const overallBg = clearCount >= 3 ? '#eaf3de' : clearCount === 2 ? '#faeeda' : '#fcebeb';
+  const overallBg = clearCount >= 3 ? '#1c1c1b' : clearCount === 2 ? '#201f1e' : '#282525';
   const overallLabel = clearCount >= 3 ? 'BUY CONDITIONS' : clearCount === 2 ? 'WAIT' : 'CAUTION';
 
   return (
